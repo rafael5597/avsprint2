@@ -1,0 +1,10 @@
+CREATE SCHEMA `bdavspring2` ;
+
+CREATE TABLE `bdavsprint2`.`produto` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `nome` VARCHAR(45) NOT NULL,
+  `descricao` VARCHAR(45) NOT NULL,
+  `desconto` FLOAT NOT NULL,
+  `data_inicio` DATE NOT NULL,
+  `data_fim` DATE NOT NULL,
+  PRIMARY KEY (`id`));
